@@ -11,7 +11,8 @@ public class Solution {
         long y = scan.nextLong();
         long z = scan.nextLong();
         
-        if(x<=z) System.out.println("YES");
+        //base on total compare with z(days)->mins(24*60)
+        if(x*y<=z*24*60) System.out.println("YES");
         else System.out.println("NO");
     }
 }
